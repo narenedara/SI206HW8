@@ -65,8 +65,8 @@ def barchart_restaurant_categories(db_filename):
 
     plt.barh(newcat, newamount)
     plt.title('Types of Restaurants on South U')
-    plt.xlabel('Restaurant Category')
-    plt.ylabel('Amount')
+    plt.xlabel('Amount')
+    plt.ylabel('Restaurant Category')
     plt.show()
 
     return alphasorted_dict
